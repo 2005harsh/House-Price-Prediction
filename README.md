@@ -4,7 +4,7 @@
 
 This project aims to develop a machine learning model that accurately predicts housing prices using the Boston Housing dataset. By analyzing various features of houses, such as crime rate, number of rooms, and accessibility to highways, the model provides valuable insights for potential buyers or sellers in estimating housing prices. The project utilizes the powerful CatBoostRegressor algorithm for optimal performance and incorporates techniques like data preprocessing, exploratory data analysis, and model training. The trained model can be used as a tool to make informed decisions in the real estate market. 
 
-![logo](https://github.com/KalyanMurapaka45/House-Price-Prediction/blob/main/Output/Screenshot%202023-05-16%20041823.png)
+![logo](https://github.com/2005harsh/House-Price-Prediction/blob/main/Output/House-Price-Prrdiction-project-output.png)
 
 ## Built With
 
@@ -22,7 +22,7 @@ This is make you understand how you may give instructions on setting up your pro
 1. Clone the repo
 
 ```
-git clone https://github.com/KalyanMurapaka45/Spam-Email-Detection.git
+git clone https://github.com/2005harsh/House-Price-Prediction.git
 ```
 
 2. Install the required libraries
@@ -72,21 +72,6 @@ A CatBoostRegressor model is trained using the preprocessed dataset. The model i
 # Model Deployment
 
 This project includes a Flask-based web application for deploying the house price prediction model. The model is loaded from the saved pickle file ('housepred.pkl'), and the scaler object is loaded from 'scaler.pkl' for preprocessing the input data. The web application allows users to input the necessary features of a house through a form or API request, and it returns the predicted house price.
-
-# Contributing
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch
-3. Commit your Changes
-4. Push to the Branch
-5. Open a Pull Request
-
-# License
-
-Distributed under the GNU General Public License v3.0. See ```LICENSE.txt``` for more information.
 
 # Acknowledgements
 This project was inspired by the Kaggle dataset on Boston House Price Prediction and the corresponding competition. We also acknowledge the open-source Python libraries used in this project and their contributors.
